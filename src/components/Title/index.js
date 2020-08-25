@@ -1,6 +1,7 @@
 import React, { useRef } from "react";
 import "./title.css";
 import { motion } from "framer-motion";
+import Snow from "../Snow";
 
 function Title() {
 	const dragRef = useRef(null);
@@ -10,6 +11,7 @@ function Title() {
 			<motion.div className="title-text" drag dragConstraints={dragRef}>
 				Sarthak <br /> Bharadwaj
 			</motion.div>
+			<Snow />
 		</div>
 	);
 }
