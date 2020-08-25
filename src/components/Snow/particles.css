@@ -1,9 +1,10 @@
 .particles {
 	position: absolute;
 	width: 100%;
-	height: 100%;
+	height: 80vh;
 }
 
 .particles canvas {
 	z-index: -1;
+	height: 80vh !important;
 }

@@ -11,6 +11,14 @@ function Title() {
 			<motion.div className="title-text" drag dragConstraints={dragRef}>
 				Sarthak <br /> Bharadwaj
 			</motion.div>
+
+			{/* <motion.div
+				className="subtitle-text"
+				drag
+				dragConstraints={dragRef}
+			>
+				Student, Developer & Learner
+			</motion.div> */}
 			<Snow />
 		</div>
 	);
