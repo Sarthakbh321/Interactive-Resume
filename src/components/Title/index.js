@@ -8,7 +8,7 @@ function Title() {
 	return (
 		<div className="title-section" ref={dragRef}>
 			<motion.div className="title-text" drag dragConstraints={dragRef}>
-				Sarthak Bharadwaj
+				Sarthak <br/> Bharadwaj
 			</motion.div>
 		</div>
 	)

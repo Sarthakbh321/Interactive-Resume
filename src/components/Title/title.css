@@ -10,7 +10,6 @@
 
 .title-text {
 	font-size: 5rem;
-	margin-left: 3%;
     text-transform: uppercase;
     font-family: verdana;
     font-weight: 700;
@@ -30,7 +29,7 @@
     1px 25px 35px rgba(16,16,16,0.2),
 	1px 30px 60px rgba(16,16,16,0.4);
 	
-	width: 40%;
+	width: auto;
 }
 
 
