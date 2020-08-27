@@ -1,0 +1,14 @@
+.nav-bar .MuiFormControlLabel-root {
+	margin-right: 10% !important;
+	margin-top: 20px !important;
+	z-index: 1;
+}
+
+.MuiFormControlLabel-label {
+	color: white !important;
+	font-family: 'Do Hyeon', sans-serif !important;
+}
+
+/* .MuiSwitch-track {
+	background-color: white !important;
+} */
