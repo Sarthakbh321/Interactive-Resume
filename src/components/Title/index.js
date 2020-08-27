@@ -1,9 +1,10 @@
+/* eslint-disable react/prop-types */
 import React, { useRef } from "react";
 import "./title.css";
 import { motion } from "framer-motion";
 import Snow from "../Snow";
 
-function Title() {
+function Title(props) {
 	const dragRef = useRef(null);
 
 	return (
@@ -11,7 +12,7 @@ function Title() {
 			<div className="title-container">
 				<motion.h1
 					className="title-text"
-					drag
+					drag={props.interactive}
 					dragConstraints={dragRef}
 				>
 					Sarthak <br /> Bharadwaj
@@ -20,7 +21,7 @@ function Title() {
 			<div className="title-container">
 				<motion.h4
 					className="subtitle-text"
-					drag
+					drag={props.interactive}
 					dragConstraints={dragRef}
 				>
 					Student, Developer & Learner

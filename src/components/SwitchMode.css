@@ -7,6 +7,7 @@
 .MuiFormControlLabel-label {
 	color: white !important;
 	font-family: 'Do Hyeon', sans-serif !important;
+	font-size: 1.2rem !important;
 }
 
 /* .MuiSwitch-track {

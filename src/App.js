@@ -18,7 +18,7 @@ function App() {
 					handleSwitch={handleSwitch}
 				/>
 			</div>
-			<Title />
+			<Title interactive={interactive} />
 			<h1>Section 2</h1>
 		</div>
 	);
