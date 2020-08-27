@@ -8,6 +8,7 @@
     /* align-items: center; */
     overflow: hidden;
     flex-direction: column;
+    position: relative;
 }
 
 .title-container {
@@ -53,4 +54,11 @@
     .title-text {
         font-size: 2.5rem;
     }
+}
+
+.scroll-div {
+    width: 100%;
+    position: absolute;
+    bottom: 50px;
+    text-align: center;
 }

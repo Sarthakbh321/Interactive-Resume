@@ -3,6 +3,7 @@ import React, { useRef } from "react";
 import "./title.css";
 import { motion } from "framer-motion";
 import Snow from "../Snow";
+import ScrollIcon from "../Scroll_Icon/ScrollIcon";
 
 function Title(props) {
 	const dragRef = useRef(null);
@@ -26,6 +27,9 @@ function Title(props) {
 				>
 					Student, Developer & Learner
 				</motion.h4>
+			</div>
+			<div className="scroll-div">
+				<ScrollIcon constraint={dragRef} />
 			</div>
 			<Snow />
 		</div>
