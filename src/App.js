@@ -19,7 +19,7 @@ function App() {
 				/>
 			</div>
 			<Title interactive={interactive} />
-			<h1>Section 2</h1>
+			<h1>About Me</h1>
 		</div>
 	);
 }
