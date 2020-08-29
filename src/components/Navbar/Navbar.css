@@ -1,0 +1,7 @@
+.nav-bar {
+	position: fixed;
+	top: 0;
+	display: flex;
+	justify-content: flex-end;
+	width: 100%;
+}
