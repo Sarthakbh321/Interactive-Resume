@@ -14,7 +14,7 @@ function SwitchMode(props) {
 				/>
 			}
 			label="Interactive"
-			color="white"
+			className={props.navState === 0 ? "text-white" : "text-black"}
 		/>
 	);
 }

@@ -34,9 +34,17 @@ function Navbar(props) {
 		<div>
 			<CssBaseline />
 			<ElevationScroll {...props}>
-				<AppBar>
+				<AppBar
+					className="nav-bar"
+					style={{
+						backgroundColor:
+							navState === 0 ? "transparent" : "white",
+						transition: "all .3s ease",
+					}}
+				>
 					<Toolbar>
 						<SwitchMode
+							navState={navState}
 							interactive={props.interactive}
 							handleSwitch={props.handleSwitch}
 						/>
@@ -51,7 +59,7 @@ function ElevationScroll(props) {
 	const { children } = props;
 	const trigger = useScrollTrigger({
 		disableHysteresis: true,
-		threshold: 0,
+		threshold: 120,
 	});
 
 	return React.cloneElement(children, {
