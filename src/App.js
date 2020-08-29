@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./App.css";
 import Title from "./components/Title";
-import SwitchMode from "./components/SwitchMode";
+import Navbar from "./components/Navbar/Navbar";
 
 function App() {
 	const [interactive, setInteractive] = useState(true);
@@ -12,12 +12,7 @@ function App() {
 
 	return (
 		<div className="App">
-			<div className="nav-bar">
-				<SwitchMode
-					interactive={interactive}
-					handleSwitch={handleSwitch}
-				/>
-			</div>
+			<Navbar interactive={interactive} handleSwitch={handleSwitch} />
 			<Title interactive={interactive} />
 			<h1>About Me</h1>
 		</div>
