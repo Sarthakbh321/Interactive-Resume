@@ -7,6 +7,12 @@
 	font-size: 1.2rem !important;
 }
 
+@media screen and (max-width: 450px) {
+	.MuiFormControlLabel-label {
+		font-size: 1rem !important;
+	}
+}
+
 /* .MuiSwitch-track {
 	background-color: white !important;
 } */

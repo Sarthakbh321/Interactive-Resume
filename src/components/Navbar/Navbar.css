@@ -1,4 +1,24 @@
 .nav-bar {
-	align-items: flex-end;
+	display: flex;
 	width: 100%;
+}
+
+.toolbar {
+	justify-content: space-between;
+}
+
+.nav-title {
+	font-family: 'Do Hyeon', sans-serif !important;
+	font-size: 1.5rem;
+	margin-left: 3%;
+}
+
+@media screen and (max-width: 450px) {
+	.nav-title {
+		font-size: 1rem;
+	}
+}
+
+.d-none {
+	display: none;
 }

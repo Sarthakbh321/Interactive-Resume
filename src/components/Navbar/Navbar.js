@@ -42,12 +42,22 @@ function Navbar(props) {
 						transition: "all .3s ease",
 					}}
 				>
-					<Toolbar>
-						<SwitchMode
-							navState={navState}
-							interactive={props.interactive}
-							handleSwitch={props.handleSwitch}
-						/>
+					<Toolbar className="toolbar">
+						<div
+							className="nav-title"
+							style={{
+								color: navState === 0 ? "transparent" : "black",
+							}}
+						>
+							Sarthak Bharadwaj |
+						</div>
+						<div>
+							<SwitchMode
+								navState={navState}
+								interactive={props.interactive}
+								handleSwitch={props.handleSwitch}
+							/>
+						</div>
 					</Toolbar>
 				</AppBar>
 			</ElevationScroll>
@@ -63,7 +73,7 @@ function ElevationScroll(props) {
 	});
 
 	return React.cloneElement(children, {
-		elevation: trigger ? 4 : 0,
+		elevation: trigger ? 2 : 0,
 	});
 }
 
