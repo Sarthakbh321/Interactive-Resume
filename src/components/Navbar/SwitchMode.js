@@ -11,6 +11,9 @@ function SwitchMode(props) {
 					checked={props.interactive}
 					name="interactive"
 					onChange={props.handleSwitch}
+					style={{
+						color: props.interactive ? "red" : "rgb(230, 230, 230)",
+					}}
 				/>
 			}
 			label="Interactive"

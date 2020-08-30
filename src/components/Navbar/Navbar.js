@@ -16,6 +16,7 @@ function Navbar(props) {
 	const [navState, setNavState] = useState(0);
 
 	useEffect(() => {
+		// eslint-disable-next-line
 		listener = document.addEventListener("scroll", (e) => {
 			var scrolled = document.scrollingElement.scrollTop;
 			if (scrolled >= 120) {
