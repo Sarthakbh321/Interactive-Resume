@@ -18,6 +18,7 @@ function SwitchMode(props) {
 			}
 			label="Interactive"
 			className={props.navState === 0 ? "text-white" : "text-black"}
+			style={{ transition: "all .3s ease" }}
 		/>
 	);
 }
