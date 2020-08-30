@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./App.css";
 import Title from "./components/Title";
 import Navbar from "./components/Navbar/Navbar";
+import About from "./sections/About";
 
 function App() {
 	const [interactive, setInteractive] = useState(true);
@@ -30,7 +31,7 @@ function App() {
 		<div className="App">
 			<Navbar interactive={interactive} handleSwitch={handleSwitch} />
 			<Title interactive={interactive} />
-			<h1 className="about-head">About Me</h1>
+			<About />
 		</div>
 	);
 }
