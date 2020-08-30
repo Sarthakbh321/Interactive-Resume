@@ -13,3 +13,22 @@
 		font-size: 2.5rem;
 	}
 }
+
+.about-content {
+	text-align: justify;
+	font-size: 1.2rem;
+	display: flex;
+	justify-content: center;
+}
+
+.about-text-div {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	padding-bottom: 30px;
+}
+
+.profile-img-div {
+	display: flex;
+	justify-content: center;
+}
