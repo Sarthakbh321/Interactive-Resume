@@ -31,7 +31,7 @@ function App() {
 		<div className="App">
 			<Navbar interactive={interactive} handleSwitch={handleSwitch} />
 			<Title interactive={interactive} />
-			<About />
+			<About interactive={interactive} />
 		</div>
 	);
 }
