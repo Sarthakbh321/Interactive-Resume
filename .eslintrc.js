@@ -9,7 +9,7 @@ module.exports = {
 		ecmaFeatures: {
 			jsx: true,
 		},
-		ecmaVersion: 12,
+		ecmaVersion: 2015,
 		sourceType: "module",
 	},
 	plugins: ["react"],

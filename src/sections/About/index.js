@@ -1,12 +1,13 @@
 /* eslint-disable react/prop-types */
 import React, { useRef } from "react";
-import "./About.css";
 import { Container, Grid } from "@material-ui/core";
 import Fade from "react-reveal";
 import { motion } from "framer-motion";
+import "./About.css";
 
 function About(props) {
 	const ref = useRef();
+
 	return (
 		<Container className="about-section">
 			<h1 className="about-head">About Me</h1>
