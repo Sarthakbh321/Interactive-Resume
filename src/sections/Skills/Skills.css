@@ -1,3 +1,12 @@
 .skill-head {
 	text-align: right;
 }
+
+.skill-bar {
+	box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.12) !important;
+}
+
+.skill-bar.MuiAppBar-colorPrimary {
+	color: black !important;
+	background-color: transparent !important;
+}
