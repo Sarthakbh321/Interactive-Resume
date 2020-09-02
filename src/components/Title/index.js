@@ -28,6 +28,12 @@ function Title(props) {
 					Student, Developer & Learner
 				</motion.h4>
 			</div>
+			<motion.img
+				src="astronaut.svg"
+				className="astro-img"
+				drag
+				dragConstraints={dragRef}
+			/>
 			<div className="scroll-div">
 				<ScrollIcon constraint={dragRef} />
 			</div>

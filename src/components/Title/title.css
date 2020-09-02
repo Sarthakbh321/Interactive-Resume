@@ -56,6 +56,13 @@
     }
 }
 
+.astro-img {
+    position: absolute;
+    width: 200px;
+    right: 50px;
+    z-index: 1;
+}
+
 .scroll-div {
     width: 100%;
     position: absolute;
