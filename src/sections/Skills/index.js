@@ -15,7 +15,7 @@ function Skills() {
 	return (
 		<div className="section-style">
 			<h1 className="section-head skill-head">My Skills</h1>
-			<AppBar position="static" elevation={0} className="skill-bar">
+			<AppBar position="static" elevation={3} className="skill-bar">
 				<Tabs
 					value={tab}
 					onChange={handleTabChange}
