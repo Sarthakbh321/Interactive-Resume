@@ -16,4 +16,17 @@
 .profile-img-div {
 	display: flex;
 	justify-content: center;
+	width: 100%;
+}
+
+.profile-img-div img {
+	width: 350px;
+	height: 350px;
+}
+
+@media screen and (max-width: 600px) {
+	.profile-img-div img {
+		width: 200px;
+		height: 200px;
+	}
 }

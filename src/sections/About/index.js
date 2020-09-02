@@ -38,7 +38,6 @@ function About(props) {
 							drag={props.interactive}
 							dragConstraints={ref}
 							src="profile.jpeg"
-							height={350}
 							alt="my face"
 						/>
 					</Grid>
