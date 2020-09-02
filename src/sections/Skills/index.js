@@ -13,7 +13,7 @@ function Skills() {
 	};
 
 	return (
-		<div className="section-style">
+		<div className="section-style skill-section">
 			<h1 className="section-head skill-head">My Skills</h1>
 			<AppBar position="static" elevation={3} className="skill-bar">
 				<Tabs
