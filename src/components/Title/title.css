@@ -53,8 +53,9 @@
 .astro-img {
     position: absolute;
     width: 200px;
-    right: 50px;
-    z-index: 1;
+    right: 30px;
+    bottom: 0;
+    z-index: 2;
 }
 
 .scroll-div {
@@ -71,7 +72,6 @@
     .astro-img {
         width: 100px;
         right: 10px;
-        bottom: 0;
     }
 }
 
