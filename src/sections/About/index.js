@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import React, { useRef } from "react";
-import { Container, Grid } from "@material-ui/core";
+import { Grid } from "@material-ui/core";
 import Fade from "react-reveal";
 import { motion } from "framer-motion";
 import "./About.css";
@@ -9,8 +9,8 @@ function About(props) {
 	const ref = useRef();
 
 	return (
-		<Container className="about-section">
-			<h1 className="about-head">About Me</h1>
+		<div className="section-style">
+			<h1 className="section-head">About Me</h1>
 			<div className="about-content" ref={ref}>
 				<Grid container className="about-grid">
 					<Grid item sm={12} md={6} className="about-text-div">
@@ -33,7 +33,7 @@ function About(props) {
 							</motion.p>
 						</Fade>
 					</Grid>
-					<Grid item xs={12} sm={6} className="profile-img-div">
+					<Grid item sm={12} md={6} className="profile-img-div">
 						<motion.img
 							drag={props.interactive}
 							dragConstraints={ref}
@@ -44,7 +44,7 @@ function About(props) {
 					</Grid>
 				</Grid>
 			</div>
-		</Container>
+		</div>
 	);
 }
 

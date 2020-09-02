@@ -1,0 +1,15 @@
+.section-head {
+	font-weight: bold;
+	font-size: 4rem;
+}
+
+.section-style {
+	margin-top: 5%;
+	font-family: 'Comfortaa', cursive;
+}
+
+@media screen and (max-width: 700px) {
+	.section-head {
+		font-size: 3rem;
+	}
+}
