@@ -3,7 +3,7 @@ import React from "react";
 import "./Panel.css";
 
 function FrontendPanel() {
-	return <div>Hello</div>;
+	return <div>Frontend skills</div>;
 }
 
 export default FrontendPanel;
