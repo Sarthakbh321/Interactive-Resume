@@ -2,7 +2,7 @@
 import React from "react";
 
 function CompetitivePanel() {
-	return <div>Hello 2</div>;
+	return <div>Competitive Panel</div>;
 }
 
 export default CompetitivePanel;
