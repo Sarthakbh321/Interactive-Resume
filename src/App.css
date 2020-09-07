@@ -13,3 +13,8 @@
 		font-size: 3rem;
 	}
 }
+
+.MuiGrid-item {
+	text-align: center;
+	flex-direction: column !important;
+}
