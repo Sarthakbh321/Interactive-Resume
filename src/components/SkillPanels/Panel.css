@@ -2,9 +2,14 @@
 	background-color: white;
 	box-shadow: 0 3px 3px -2px rgba(0, 0, 0, 0.2), 0px 3px 4px 0px rgba(0, 0, 0, 0.14), 0px 7px 8px 0px rgba(0, 0, 0, 0.12) !important;
 	padding-top: 20px !important;
+	padding-bottom: 30px !important;
 }
 
 .skill-tag {
 	font-family: 'Do Hyeon', sans-serif !important;
 	font-size: 1.5rem;
+}
+
+.skill-item {
+	text-align: center !important;
 }

@@ -1,13 +1,21 @@
 /* eslint-disable react/prop-types */
 import React from "react";
+import { withWidth, isWidthDown } from "@material-ui/core";
 
-function SkillImage({ name, src }) {
+function SkillImage({ name, src, width }) {
+	let size = 120;
+
+	if (isWidthDown("xs", width)) {
+		size = 60;
+		console.log(width);
+	}
+
 	return (
 		<>
 			<img
 				src={`icons/${src}.svg`}
-				width={120}
-				height={120}
+				width={size}
+				height={size}
 				alt={`${name} logo`}
 			/>{" "}
 			<br />
@@ -16,4 +24,4 @@ function SkillImage({ name, src }) {
 	);
 }
 
-export default SkillImage;
+export default withWidth()(SkillImage);
