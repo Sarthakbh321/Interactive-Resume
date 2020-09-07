@@ -7,7 +7,7 @@ import SkillImage from "./SkillImage";
 function FrontendPanel() {
 	return (
 		<div style={{ flexGrow: 1 }}>
-			<Grid container spacing={3}>
+			<Grid container spacing={2}>
 				<Grid item xs={6} sm={3} className="skill-item">
 					<SkillImage src="html" name="HTML" />
 				</Grid>
