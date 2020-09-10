@@ -1,6 +1,7 @@
 /* eslint-disable react/prop-types */
 import React from "react";
 import { withWidth, isWidthDown } from "@material-ui/core";
+import { Zoom } from "react-reveal";
 
 function SkillImage({ name, src, width }) {
 	let size = 120;
@@ -11,7 +12,7 @@ function SkillImage({ name, src, width }) {
 	}
 
 	return (
-		<>
+		<Zoom>
 			<img
 				src={`icons/${src}.svg`}
 				width={size}
@@ -20,7 +21,7 @@ function SkillImage({ name, src, width }) {
 			/>{" "}
 			<br />
 			<span className="skill-tag">{name}</span>
-		</>
+		</Zoom>
 	);
 }
 
