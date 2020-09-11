@@ -16,5 +16,8 @@
 }
 
 .MuiTab-wrapper {
-	font-family: 'Comfortaa', cursive !important;
+	font-family: 'Do Hyeon', sans-serif !important;
+	font-size: 1.1rem !important;
+	font-weight: bold !important;
+	letter-spacing: 5px !important;
 }
