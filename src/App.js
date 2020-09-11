@@ -6,6 +6,7 @@ import About from "./sections/About";
 import Skills from "./sections/Skills";
 import { Container } from "@material-ui/core";
 import Divider from "./components/Divider/Divider";
+import Projects from "./sections/Projects";
 
 function App() {
 	const [interactive, setInteractive] = useState(true);
@@ -38,6 +39,8 @@ function App() {
 				<About interactive={interactive} />
 				<Divider />
 				<Skills interactive={interactive} />
+				<Divider />
+				<Projects interactive={interactive} />
 			</Container>
 		</div>
 	);
