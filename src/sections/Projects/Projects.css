@@ -1,3 +1,14 @@
-.grid-list {
-	width: 500px;
+/* .grid-list {
+	width: 40%;
+} */
+
+.projects-list {
+	background-color: rgb(194, 194, 194) !important;
+	border-radius: 5px;
+	padding: 5% !important;
+}
+
+.project-title .MuiTypography-h5 {
+	font-family: 'Do Hyeon', sans-serif !important;
+	letter-spacing: 2px;
 }

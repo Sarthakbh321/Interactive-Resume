@@ -1,13 +1,19 @@
 /* eslint-disable react/prop-types */
 import React from "react";
-import { Card, CardMedia, CardContent } from "@material-ui/core";
+import "../../sections/Projects/Projects.css";
+import { Card, CardMedia, CardContent, CardHeader } from "@material-ui/core";
 
-function ProjectTile({ name, src }) {
+function ProjectTile({ name, src, desc }) {
 	return (
-		<Card className="project-tile">
-			<CardMedia image={`/assets/${src}`} title={name} />
+		<Card className="project-tile" elevation={3}>
+			<CardHeader title={name} className="project-title" />
+			<CardMedia
+				image={`./assets/${src}`}
+				title={name}
+				style={{ height: 0, paddingTop: "56%" }}
+			/>
 			<CardContent>
-				<p>Quizzie is a open-source</p>
+				<p>{desc}</p>
 			</CardContent>
 		</Card>
 	);

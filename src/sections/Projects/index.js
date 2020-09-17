@@ -2,14 +2,34 @@ import React from "react";
 import ProjectTile from "../../components/ProjectTile/ProjectTile";
 import "./Projects.css";
 import { Grid } from "@material-ui/core";
+import projects from "../../data/Projects";
 
 function Projects() {
+	const handleModal = () => {
+		console.log("sdds");
+	};
+
 	return (
 		<div className="section-style">
 			<h1 className="section-head">Projects</h1>
 			<div className="projects-list">
 				<Grid conatiner spacing={0} className="grid-list">
-					<ProjectTile name="Quizzie" src="quizzie.png" big={false} />
+					{projects.map((project) => (
+						<Grid
+							item
+							xs={12}
+							sm={6}
+							md={4}
+							onClick={handleModal}
+							key={projects.id}
+						>
+							<ProjectTile
+								name={project.name}
+								src={project.src}
+								desc={project.description}
+							/>
+						</Grid>
+					))}
 				</Grid>
 			</div>
 		</div>
