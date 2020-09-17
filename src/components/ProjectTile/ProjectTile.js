@@ -23,7 +23,7 @@ function ProjectTile({ name, src, desc }) {
 				<p style={{ textAlign: "justify" }}>{desc}</p>
 			</CardContent>
 			<CardActions disableSpacing>
-				<Button variant="contained">Go to website</Button>
+				<Button>Go to website</Button>
 			</CardActions>
 		</Card>
 	);
