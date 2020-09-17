@@ -1,13 +1,15 @@
 /* eslint-disable react/prop-types */
 import React from "react";
-import { GridListTile, GridListTileBar } from "@material-ui/core";
+import { Card, CardMedia, CardContent } from "@material-ui/core";
 
-function ProjectTile({ name, big, src }) {
+function ProjectTile({ name, src }) {
 	return (
-		<GridListTile key={name} cols={big ? 2 : 1} rows={big ? 2 : 1}>
-			<img src={src} alt={name} />
-			<GridListTileBar title={name} />
-		</GridListTile>
+		<Card className="project-tile">
+			<CardMedia image={`/assets/${src}`} title={name} />
+			<CardContent>
+				<p>Quizzie is a open-source</p>
+			</CardContent>
+		</Card>
 	);
 }
 
