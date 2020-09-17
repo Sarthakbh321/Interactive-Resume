@@ -1,5 +1,5 @@
 .skill-head {
-	text-align: right;
+    text-align: right;
 }
 
 /* .skill-bar {
@@ -7,17 +7,17 @@
 } */
 
 .skill-section {
-	padding-bottom: 5%;
+    padding-bottom: 5%;
 }
 
 .skill-bar.MuiAppBar-colorPrimary {
-	color: black !important;
-	background-color: #eeeeee !important;
+    color: black !important;
+    background-color: #eeeeee !important;
 }
 
 .MuiTab-wrapper {
-	font-family: 'Do Hyeon', sans-serif !important;
-	font-size: 1.1rem !important;
-	font-weight: bold !important;
-	letter-spacing: 5px !important;
+    font-family: 'Do Hyeon', sans-serif !important;
+    font-size: 1.1rem !important;
+    font-weight: bold !important;
+    letter-spacing: 5px !important;
 }
