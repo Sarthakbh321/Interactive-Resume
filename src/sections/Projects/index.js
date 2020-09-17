@@ -13,11 +13,11 @@ function Projects() {
 		<div className="section-style">
 			<h1 className="section-head">Projects</h1>
 			<div className="projects-list">
-				<Grid conatiner spacing={0} className="grid-list">
+				<Grid container spacing={2} className="project-grid-list">
 					{projects.map((project) => (
 						<Grid
 							item
-							xs={12}
+							xs={4}
 							sm={6}
 							md={4}
 							onClick={handleModal}

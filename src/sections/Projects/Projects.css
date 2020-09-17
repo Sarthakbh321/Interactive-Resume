@@ -1,11 +1,11 @@
-/* .grid-list {
-	width: 40%;
-} */
-
 .projects-list {
 	background-color: rgb(194, 194, 194) !important;
 	border-radius: 5px;
 	padding: 5% !important;
+}
+
+.project-grid-list {
+	flex-grow: 1 !important;
 }
 
 .project-title .MuiTypography-h5 {

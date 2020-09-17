@@ -1,7 +1,14 @@
 /* eslint-disable react/prop-types */
 import React from "react";
 import "../../sections/Projects/Projects.css";
-import { Card, CardMedia, CardContent, CardHeader } from "@material-ui/core";
+import {
+	Card,
+	CardMedia,
+	CardContent,
+	CardHeader,
+	CardActions,
+	Button,
+} from "@material-ui/core";
 
 function ProjectTile({ name, src, desc }) {
 	return (
@@ -13,8 +20,11 @@ function ProjectTile({ name, src, desc }) {
 				style={{ height: 0, paddingTop: "56%" }}
 			/>
 			<CardContent>
-				<p>{desc}</p>
+				<p style={{ textAlign: "justify" }}>{desc}</p>
 			</CardContent>
+			<CardActions disableSpacing>
+				<Button variant="contained">Go to website</Button>
+			</CardActions>
 		</Card>
 	);
 }
