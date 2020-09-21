@@ -8,6 +8,10 @@
 	flex-grow: 1 !important;
 }
 
+.do-font {
+	font-family: 'Do Hyeon', sans-serif !important;
+}
+
 .project-title .MuiTypography-h5 {
 	font-family: 'Do Hyeon', sans-serif !important;
 	letter-spacing: 2px;
