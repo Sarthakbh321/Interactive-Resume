@@ -9,29 +9,32 @@ function FrontendPanel() {
 		<div style={{ flexGrow: 1 }}>
 			<Grid container spacing={2}>
 				<Grid item xs={6} sm={3} className="skill-item">
-					<SkillImage src="html" name="HTML" />
+					<SkillImage src="html.svg" name="HTML" />
 				</Grid>
 				<Grid item xs={6} sm={3} className="skill-item">
-					<SkillImage src="css" name="CSS" />
+					<SkillImage src="css.svg" name="CSS" />
 				</Grid>
 				<Grid item xs={6} sm={3} className="skill-item">
-					<SkillImage src="js" name="Javascript" />
+					<SkillImage src="js.svg" name="Javascript" />
 				</Grid>
 				<Grid item xs={6} sm={3} className="skill-item">
-					<SkillImage src="bootstrap" name="Bootstrap" />
+					<SkillImage src="bootstrap.svg" name="Bootstrap" />
 				</Grid>
 				<Grid item xs={6} sm={3} className="skill-item">
-					<SkillImage src="react" name="React" />
+					<SkillImage src="react.svg" name="React" />
 				</Grid>
 				<Grid item xs={6} sm={3} className="skill-item">
-					<SkillImage src="redux" name="Redux" />
+					<SkillImage src="redux.svg" name="Redux" />
 				</Grid>
 				<Grid item xs={6} sm={3} className="skill-item">
-					<SkillImage src="react" name="React Native" />
+					<SkillImage src="react.svg" name="React Native" />
 				</Grid>
 				<Grid item xs={6} sm={3} className="skill-item">
-					<SkillImage src="vue" name="Vue.js" />
+					<SkillImage src="vue.svg" name="Vue.js" />
 				</Grid>
+				{/* <Grid item xs={6} sm={3} className="skill-item">
+					<SkillImage src="motion.png" name="Framer Motion" />
+				</Grid> */}
 			</Grid>
 		</div>
 	);

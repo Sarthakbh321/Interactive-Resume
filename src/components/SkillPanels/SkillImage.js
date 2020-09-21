@@ -14,7 +14,7 @@ function SkillImage({ name, src, width }) {
 	return (
 		<Zoom>
 			<img
-				src={`icons/${src}.svg`}
+				src={`icons/${src}`}
 				width={size}
 				height={size}
 				alt={`${name} logo`}

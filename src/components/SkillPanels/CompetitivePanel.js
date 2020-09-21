@@ -9,13 +9,13 @@ function CompetitivePanel() {
 		<div style={{ flexGrow: 1 }}>
 			<Grid container spacing={2}>
 				<Grid item xs={6} sm={4} className="skill-item">
-					<SkillImage src="python" name="Python" />
+					<SkillImage src="python.svg" name="Python" />
 				</Grid>
 				<Grid item xs={6} sm={4} className="skill-item">
-					<SkillImage src="cpp" name="C++" />
+					<SkillImage src="cpp.svg" name="C++" />
 				</Grid>
 				<Grid item xs={6} sm={4} className="skill-item">
-					<SkillImage src="java" name="Java" />
+					<SkillImage src="java.svg" name="Java" />
 				</Grid>
 			</Grid>
 		</div>
