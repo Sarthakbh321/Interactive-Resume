@@ -6,6 +6,7 @@ let projects = [
 			"Quizzie is an open source, fully professional quizzing platform. It makes it very easy to create and give quizzes. I worked mainly on the frontend part.",
 		src: "quizzie.png",
 		tech: "React, Material UI, Axios, ChartsJS, and many more libraries.",
+		link: "https://quizzie.codechefvit.com",
 	},
 	{
 		id: 2,
@@ -22,6 +23,7 @@ let projects = [
 			"This was a personal project. It is a basic web based chatting app, which uses sockets. I worked on both the backend and frontend.",
 		src: "chatzo.png",
 		tech: "React, Ant Design UI, NodeJS, Express, Socket.io",
+		link: "https://react-chat-sarthak.netlify.app/",
 	},
 ];
 

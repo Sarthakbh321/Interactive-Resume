@@ -10,7 +10,7 @@ import {
 	Button,
 } from "@material-ui/core";
 
-function ProjectTile({ name, src, desc, tech }) {
+function ProjectTile({ name, src, desc, tech, link }) {
 	return (
 		<Card className="project-tile" elevation={3}>
 			<CardHeader title={name} className="project-title" />
@@ -23,11 +23,18 @@ function ProjectTile({ name, src, desc, tech }) {
 				<p style={{ textAlign: "justify" }}>{desc}</p>
 				<p>
 					<span className="do-font">TECH STACK: </span>
-					{tech}
+					<span className="blue-color">{tech} </span>
 				</p>
 			</CardContent>
 			<CardActions disableSpacing>
-				<Button variant="contained">Go to website</Button>
+				<a
+					href={link}
+					style={{ textDecoration: "none" }}
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					<Button variant="contained">Go to website</Button>
+				</a>
 			</CardActions>
 		</Card>
 	);

@@ -20,16 +20,29 @@ function About(props) {
 								dragConstraints={ref}
 								className="z-index1"
 							>
-								Hello! I am Sarthak Bharadwaj, currently a 2nd
-								year student in Vellore Institute of Technology,
-								Vellore. From very early on in my life, I have
-								been interested in technology and computers.
-								Hence, I am currently pursuing this interest as
-								a Computer Science student. <br /> <br />
+								Hello! I am{" "}
+								<span className="blue-color">
+									Sarthak Bharadwaj
+								</span>
+								, currently a 2nd year student in{" "}
+								<span className="blue-color">
+									Vellore Institute of Technology, Vellore
+								</span>
+								. From very early on in my life, I have been
+								interested in technology and computers. Hence, I
+								am currently pursuing this interest as a
+								Computer Science student. <br /> <br />
 								My technical interests know no bound! I am good
-								at Frontend Development, Competititve
-								Programming, also know something about App
-								Development and Backend Development.
+								at{" "}
+								<span className="blue-color">
+									Frontend Development, Competititve
+									Programming
+								</span>
+								, also know something about{" "}
+								<span className="blue-color">
+									App Development and Backend Development
+								</span>
+								.
 							</motion.p>
 						</Fade>
 					</Grid>

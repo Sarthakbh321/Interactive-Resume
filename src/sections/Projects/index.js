@@ -28,6 +28,7 @@ function Projects() {
 								src={project.src}
 								desc={project.description}
 								tech={project.tech}
+								link={project.link}
 							/>
 						</Grid>
 					))}
