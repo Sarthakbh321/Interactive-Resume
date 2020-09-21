@@ -17,7 +17,7 @@ function Projects() {
 					{projects.map((project) => (
 						<Grid
 							item
-							xs={4}
+							xs={12}
 							sm={6}
 							md={4}
 							onClick={handleModal}
