@@ -15,6 +15,14 @@ let projects = [
 		src: "hotspot.png",
 		tech: "React Native, Axios, Expo CLI, etc.",
 	},
+	{
+		id: 3,
+		name: "Chatzo",
+		description:
+			"This was a personal project. It is a basic web based chatting app, which uses sockets. I worked on both the backend and frontend.",
+		src: "chatzo.png",
+		tech: "React, Ant Design UI, NodeJS, Express, Socket.io",
+	},
 ];
 
 export default projects;
