@@ -29,6 +29,7 @@ function Projects() {
 								desc={project.description}
 								tech={project.tech}
 								link={project.link}
+								git={project.git}
 							/>
 						</Grid>
 					))}

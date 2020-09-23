@@ -11,7 +11,7 @@ import {
 	IconButton,
 } from "@material-ui/core";
 
-function ProjectTile({ name, src, desc, tech, link }) {
+function ProjectTile({ name, src, desc, tech, link, git }) {
 	return (
 		<Card className="project-tile" elevation={3}>
 			<CardHeader title={name} className="project-title" />
@@ -43,7 +43,16 @@ function ProjectTile({ name, src, desc, tech, link }) {
 						Go to website
 					</Button>
 				</a>
-				<div className="link-btns">Hello</div>
+				<a href={git} target="_blank" rel="noopener noreferrer">
+					<IconButton>
+						<img
+							src="./icons/github.svg"
+							width={20}
+							height={20}
+							className="git-icon"
+						/>
+					</IconButton>
+				</a>
 			</CardActions>
 		</Card>
 	);

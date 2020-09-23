@@ -36,3 +36,7 @@
 	background-color: rgb(145, 144, 144) !important;
 	color: rgb(228, 228, 228) !important;
 }
+
+.git-icon:hover {
+	transform: scale(1.2);
+}

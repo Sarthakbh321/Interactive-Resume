@@ -7,6 +7,7 @@ let projects = [
 		src: "quizzie.png",
 		tech: "React, Material UI, Axios, ChartsJS, and many more libraries.",
 		link: "https://quizzie.codechefvit.com",
+		git: "https://github.com/Sarthakbh321/Quizzie",
 	},
 	{
 		id: 2,
@@ -15,6 +16,7 @@ let projects = [
 			"HotSpot is an Android and iOS app, which displays a heat-map showing the strength of users' data connection.",
 		src: "hotspot.png",
 		tech: "React Native, Axios, Expo CLI, etc.",
+		git: "https://github.com/Sarthakbh321/HotSpot",
 	},
 	{
 		id: 3,
@@ -24,6 +26,7 @@ let projects = [
 		src: "chatzo.png",
 		tech: "React, Ant Design UI, NodeJS, Express, Socket.io",
 		link: "https://react-chat-sarthak.netlify.app/",
+		git: "https://github.com/Sarthakbh321/React-Chat-App",
 	},
 	{
 		id: 4,
@@ -32,6 +35,7 @@ let projects = [
 			"Spidey is a 2D game. Play as a spider and eat as many bugs ans you can!",
 		src: "",
 		tech: "Java, LibGDX library",
+		git: "https://github.com/Sarthakbh321/Spidey-Game",
 	},
 ];
 
