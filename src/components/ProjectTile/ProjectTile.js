@@ -8,6 +8,7 @@ import {
 	CardHeader,
 	CardActions,
 	Button,
+	IconButton,
 } from "@material-ui/core";
 
 function ProjectTile({ name, src, desc, tech, link }) {
@@ -26,7 +27,7 @@ function ProjectTile({ name, src, desc, tech, link }) {
 					<span className="blue-color">{tech} </span>
 				</p>
 			</CardContent>
-			<CardActions disableSpacing>
+			<CardActions disableSpacing className="action-bar">
 				<a
 					href={link}
 					style={{ textDecoration: "none" }}
@@ -42,6 +43,7 @@ function ProjectTile({ name, src, desc, tech, link }) {
 						Go to website
 					</Button>
 				</a>
+				<div className="link-btns">Hello</div>
 			</CardActions>
 		</Card>
 	);

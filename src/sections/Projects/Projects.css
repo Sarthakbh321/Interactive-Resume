@@ -17,6 +17,12 @@
 	letter-spacing: 2px;
 }
 
+.action-bar {
+	justify-content: space-between !important;
+	padding-right: 5% !important;
+	padding-left: 5% !important;
+}
+
 .project-link-btn {
 	/* border-radius: 0 !important; */
 	box-shadow: none !important;
