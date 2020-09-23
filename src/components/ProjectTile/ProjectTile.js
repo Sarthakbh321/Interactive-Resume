@@ -33,7 +33,14 @@ function ProjectTile({ name, src, desc, tech, link }) {
 					target="_blank"
 					rel="noopener noreferrer"
 				>
-					<Button variant="contained">Go to website</Button>
+					<Button
+						variant="contained"
+						className="project-link-btn"
+						disabled={link === undefined ? true : false}
+						onClick={() => console.log(link)}
+					>
+						Go to website
+					</Button>
 				</a>
 			</CardActions>
 		</Card>

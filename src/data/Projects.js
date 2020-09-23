@@ -32,7 +32,6 @@ let projects = [
 			"Spidey is a 2D game. Play as a spider and eat as many bugs ans you can!",
 		src: "",
 		tech: "Java, LibGDX library",
-		link: "",
 	},
 ];
 

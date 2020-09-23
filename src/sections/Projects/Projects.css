@@ -16,3 +16,17 @@
 	font-family: 'Do Hyeon', sans-serif !important;
 	letter-spacing: 2px;
 }
+
+.project-link-btn {
+	/* border-radius: 0 !important; */
+	box-shadow: none !important;
+	color: white !important;
+	background-color: orange !important;
+	font-family: 'Do Hyeon', sans-serif !important;
+	letter-spacing: 1.5px !important;
+}
+
+.project-link-btn:disabled {
+	background-color: rgb(145, 144, 144) !important;
+	color: rgb(228, 228, 228) !important;
+}
