@@ -33,7 +33,7 @@ let projects = [
 		name: "Spidey",
 		description:
 			"Spidey is a 2D game. Play as a spider and eat as many bugs ans you can!",
-		src: "",
+		src: "spidey.png",
 		tech: "Java, LibGDX library",
 		git: "https://github.com/Sarthakbh321/Spidey-Game",
 	},

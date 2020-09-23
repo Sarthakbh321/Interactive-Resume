@@ -1,3 +1,7 @@
+.MuiCardMedia-root {
+	background-size: contain !important;
+}
+
 .projects-list {
 	background-color: rgb(194, 194, 194) !important;
 	border-radius: 5px;
