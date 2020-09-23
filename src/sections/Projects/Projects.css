@@ -10,6 +10,7 @@
 
 .project-grid-list {
 	flex-grow: 1 !important;
+	justify-content: center !important;
 }
 
 .do-font {

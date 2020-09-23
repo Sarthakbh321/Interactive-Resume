@@ -37,6 +37,16 @@ let projects = [
 		tech: "Java, LibGDX library",
 		git: "https://github.com/Sarthakbh321/Spidey-Game",
 	},
+	{
+		id: 5,
+		name: "Photography Template",
+		description:
+			"This is a fresh and modern looking website template. Can be used for showcasing photography portfolio.",
+		src: "photography.png",
+		tech: "HTML, CSS",
+		link: "https://sarthakbh321.github.io/Photography-template/",
+		git: "https://github.com/Sarthakbh321/Photography-template",
+	},
 ];
 
 export default projects;
