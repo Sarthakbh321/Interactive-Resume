@@ -7,6 +7,7 @@ import Skills from "./sections/Skills";
 import { Container } from "@material-ui/core";
 import Divider from "./components/Divider/Divider";
 import Projects from "./sections/Projects";
+import Contact from "./sections/Contact";
 
 function App() {
 	const [interactive, setInteractive] = useState(true);
@@ -42,6 +43,7 @@ function App() {
 				<Divider />
 				<Projects interactive={interactive} />
 				<Divider />
+				<Contact interactive={interactive} />
 			</Container>
 		</div>
 	);
