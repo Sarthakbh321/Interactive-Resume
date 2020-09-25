@@ -50,6 +50,7 @@ function ProjectTile({ name, src, desc, tech, link, git }) {
 							width={20}
 							height={20}
 							className="git-icon"
+							alt={`${name} project`}
 						/>
 					</IconButton>
 				</a>

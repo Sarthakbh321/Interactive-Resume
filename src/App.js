@@ -41,6 +41,7 @@ function App() {
 				<Skills interactive={interactive} />
 				<Divider />
 				<Projects interactive={interactive} />
+				<Divider />
 			</Container>
 		</div>
 	);
