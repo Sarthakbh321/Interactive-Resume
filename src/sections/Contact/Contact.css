@@ -1,3 +1,18 @@
 .contact-head {
 	text-align: right;
 }
+
+.img-text {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	font-size: 1.5rem;
+}
+
+.img-text a {
+	text-decoration: none;
+}
+
+.img-text img {
+	margin-left: 20px;
+}
