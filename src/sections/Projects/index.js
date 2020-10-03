@@ -14,7 +14,7 @@ function Projects({ interactive }) {
 
 	return (
 		<div className="section-style">
-			<h1 className="section-head">Projects</h1>
+			<h1 className="section-head">💻 Projects</h1>
 			<div className="projects-list" ref={dragRef}>
 				<Grid container spacing={2} className="project-grid-list">
 					{projects.map((project) => (
