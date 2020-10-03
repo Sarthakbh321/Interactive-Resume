@@ -17,3 +17,11 @@
 .blue-color {
 	color: rgb(83, 125, 248);
 }
+
+.grabbable {
+	cursor: grab;
+}
+
+.grabbable:active {
+	cursor: grabbing;
+}

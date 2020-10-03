@@ -12,7 +12,11 @@ function Title(props) {
 		<div className="title-section" ref={dragRef}>
 			<div className="title-container">
 				<motion.h1
-					className="title-text"
+					className={
+						props.interactive
+							? "title-text grabbable"
+							: "title-text"
+					}
 					drag={props.interactive}
 					dragConstraints={dragRef}
 				>
@@ -21,7 +25,11 @@ function Title(props) {
 			</div>
 			<div className="title-container">
 				<motion.h4
-					className="subtitle-text"
+					className={
+						props.interactive
+							? "subtitle-text grabbable"
+							: "subtitle-text"
+					}
 					drag={props.interactive}
 					dragConstraints={dragRef}
 				>
@@ -30,7 +38,7 @@ function Title(props) {
 			</div>
 			<motion.img
 				src="astronaut.svg"
-				className="astro-img"
+				className="astro-img grabbable"
 				drag
 				dragConstraints={dragRef}
 			/>
