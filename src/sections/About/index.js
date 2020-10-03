@@ -18,7 +18,11 @@ function About(props) {
 							<motion.p
 								drag={props.interactive}
 								dragConstraints={ref}
-								className="z-index1"
+								className={
+									props.interactive
+										? "z-index1 grabbable"
+										: "z-index1"
+								}
 							>
 								Hello! I am{" "}
 								<span className="blue-color">
@@ -46,12 +50,22 @@ function About(props) {
 							</motion.p>
 						</Fade>
 					</Grid>
-					<Grid item sm={12} md={6} className="profile-img-div">
+					<Grid
+						item
+						sm={12}
+						md={6}
+						className={
+							props.interactive
+								? "profile-img-div grabbable"
+								: "profile-img-div"
+						}
+					>
 						<motion.img
 							drag={props.interactive}
 							dragConstraints={ref}
 							src="profile.jpeg"
 							alt="my face"
+							className={props.interactive ? "grabbable" : null}
 						/>
 					</Grid>
 				</Grid>

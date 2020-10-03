@@ -36,7 +36,7 @@ function Contact() {
 				</p>
 				<p className="img-text">
 					<a
-						href="https://www.linkedin.com/in/sarthak-bharadwaj-8552b5110/"
+						href="https://www.instagram.com/sarthak_bharadwaj_/"
 						className="blue-color"
 					>
 						@sarthak_bharadwaj_

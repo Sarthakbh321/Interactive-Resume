@@ -23,7 +23,11 @@ function ProjectTile({
 	dragref,
 }) {
 	return (
-		<motion.div drag={interactive} dragConstraints={dragref}>
+		<motion.div
+			drag={interactive}
+			dragConstraints={dragref}
+			className={interactive ? "grabbable" : null}
+		>
 			<Card className="project-tile" elevation={3}>
 				<CardHeader title={name} className="project-title" />
 				<CardMedia
