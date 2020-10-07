@@ -1,4 +1,11 @@
 .footer {
 	background-color: black;
 	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 5%;
+	padding: 30px 0;
+	font-family: 'Do Hyeon', sans-serif;
+	font-size: 1rem;
 }
