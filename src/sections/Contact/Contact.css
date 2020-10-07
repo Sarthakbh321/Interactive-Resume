@@ -16,3 +16,36 @@
 .img-text img {
 	margin-left: 20px;
 }
+
+.contact-section p {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.contact-desc {
+	display: flex;
+	align-items: center;
+}
+
+.contact-text {
+	font-size: 1.5rem;
+}
+
+@media screen and (max-width: 900px) {
+	.img-text {
+		font-size: 1.2rem;
+	}
+	.contact-text {
+		font-size: 1rem;
+	}
+	.img-text img {
+		margin-left: 20px;
+		width: 32px !important;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.contact-section {
+		margin-top: 30px;
+	}
+}
