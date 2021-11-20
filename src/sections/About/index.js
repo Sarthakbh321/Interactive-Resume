@@ -4,6 +4,7 @@ import { Grid } from "@material-ui/core";
 import Fade from "react-reveal";
 import { motion } from "framer-motion";
 import "./About.css";
+import { GetApp } from "@material-ui/icons";
 
 function About(props) {
 	const ref = useRef();
@@ -53,6 +54,18 @@ function About(props) {
 								</span>
 								.
 							</motion.p>
+							<div className="btn-container">
+								<a
+									download="[Resume] Sarthak Bharadwaj"
+									href="/resume.pdf"
+									style={{ textDecoration: "none" }}
+								>
+									<button className="cv-btn">
+										<GetApp className="down-icon" />
+										Download CV
+									</button>
+								</a>
+							</div>
 						</Fade>
 					</Grid>
 					<Grid

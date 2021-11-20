@@ -24,9 +24,47 @@
 	height: 350px;
 }
 
+
+
+.btn-container {
+	width: 100%;
+}
+
 @media screen and (max-width: 600px) {
 	.profile-img-div img {
 		width: 200px;
 		height: 200px;
 	}
+
+	.btn-container {
+		display: flex;
+		justify-content: center;
+	}
+}
+
+
+.cv-btn {
+	background-color: rgb(83, 125, 248);
+	border: none;
+	color: white;
+	font-weight: 700;
+	padding: 15px 10px;
+	font-size: 1.2rem;
+	border-radius: 10px;
+	font-family: "Comfortaa";
+	cursor: pointer;
+	width: 300px;
+	margin-top: 20px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.cv-btn:hover {
+	background-color: rgb(62, 95, 192);
+}
+
+.down-icon {
+	margin-right: 10px;
 }
