@@ -28,7 +28,7 @@ function Skills() {
 					indicatorColor="primary"
 				>
 					<Tab label="Frontend" />
-					<Tab label="Competitive" />
+					<Tab label="DSA" />
 				</Tabs>
 			</AppBar>
 			<Panel index={0} value={tab}>

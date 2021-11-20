@@ -8,14 +8,14 @@
 		"@testing-library/react": "^9.5.0",
 		"@testing-library/user-event": "^7.2.1",
 		"framer-motion": "^2.6.0",
-		"node-sass": "^4.14.1",
 		"react": "^16.13.1",
 		"react-awesome-button": "^6.5.1",
 		"react-dom": "^16.13.1",
 		"react-particles-js": "^3.3.0",
 		"react-reveal": "^1.2.2",
 		"react-scripts": "3.4.3",
-		"rodal": "^1.8.1"
+		"rodal": "^1.8.1",
+		"tsparticles": "^1.37.4"
 	},
 	"scripts": {
 		"start": "react-scripts start",
@@ -37,6 +37,5 @@
 			"last 1 firefox version",
 			"last 1 safari version"
 		]
-	},
-	"devDependencies": {}
+	}
 }

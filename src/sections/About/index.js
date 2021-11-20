@@ -33,7 +33,7 @@ function About(props) {
 								<span className="blue-color">
 									Sarthak Bharadwaj
 								</span>
-								, currently a 2nd year student in{" "}
+								, currently a 3rd year student in{" "}
 								<span className="blue-color">
 									Vellore Institute of Technology, Vellore
 								</span>
