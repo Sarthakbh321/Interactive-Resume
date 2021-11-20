@@ -19,5 +19,11 @@
     font-family: 'Do Hyeon', sans-serif !important;
     font-size: 1.1rem !important;
     font-weight: bold !important;
-    letter-spacing: 5px !important;
+    letter-spacing: 2px !important;
+}
+
+@media screen and (max-width: 768px) {
+    .MuiTab-wrapper {
+        font-size: 0.8rem !important;
+    }
 }

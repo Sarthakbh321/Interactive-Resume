@@ -14,3 +14,8 @@
 .skill-item {
 	text-align: center !important;
 }
+
+.grid-container {
+	display: flex;
+	justify-content: center;
+}

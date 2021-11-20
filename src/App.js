@@ -40,6 +40,8 @@ function App() {
 			<Container>
 				<About interactive={interactive} />
 				<Divider />
+				{/* <Experience interactive={interactive} />
+				<Divider /> */}
 				<Skills interactive={interactive} />
 				<Divider />
 				<Projects interactive={interactive} />

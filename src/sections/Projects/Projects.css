@@ -36,6 +36,8 @@
 	background-color: orange !important;
 	font-family: 'Do Hyeon', sans-serif !important;
 	letter-spacing: 1.5px !important;
+	z-index: 0;
+
 }
 
 .project-link-btn:disabled {

@@ -4,22 +4,25 @@ import { Grid } from "@material-ui/core";
 import SkillImage from "./SkillImage";
 import "./Panel.css";
 
-function CompetitivePanel() {
+function BackendPanel() {
 	return (
 		<div style={{ flexGrow: 1 }}>
 			<Grid container spacing={2} className="grid-container">
 				<Grid item xs={6} sm={4} className="skill-item">
-					<SkillImage src="python.svg" name="Python" />
+					<SkillImage src="node.svg" name="NodeJS" />
 				</Grid>
 				<Grid item xs={6} sm={4} className="skill-item">
-					<SkillImage src="cpp.svg" name="C++" />
+					<SkillImage src="express.svg" name="ExpressJS" />
 				</Grid>
 				<Grid item xs={6} sm={4} className="skill-item">
-					<SkillImage src="java.svg" name="Java" />
+					<SkillImage src="mongodb.svg" name="MongoDB" />
+				</Grid>
+				<Grid item xs={6} sm={4} className="skill-item">
+					<SkillImage src="firebase.svg" name="Firebase" />
 				</Grid>
 			</Grid>
 		</div>
 	);
 }
 
-export default CompetitivePanel;
+export default BackendPanel;

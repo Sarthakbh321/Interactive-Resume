@@ -41,13 +41,13 @@ function About(props) {
 								interested in technology and computers. Hence, I
 								am currently pursuing this interest as a
 								Computer Science student. <br /> <br />
-								My technical interests know no bound! I am good
+								My technical interests know no bounds! I am good
 								at{" "}
 								<span className="blue-color">
 									Frontend Development, Competititve
 									Programming
 								</span>
-								, also know something about{" "}
+								, also experienced in{" "}
 								<span className="blue-color">
 									App Development and Backend Development
 								</span>

@@ -16,10 +16,12 @@
 
 .blue-color {
 	color: rgb(83, 125, 248);
+	font-weight: 700;
 }
 
 .grabbable {
 	cursor: grab;
+	z-index: 100;
 }
 
 .grabbable:active {

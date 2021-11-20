@@ -4,6 +4,7 @@ import { AppBar, Tabs, Tab } from "@material-ui/core";
 import FrontendPanel from "../../components/SkillPanels/FrontendPanel";
 import Panel from "../../components/SkillPanels/Panel";
 import CompetitivePanel from "../../components/SkillPanels/CompetitivePanel";
+import BackendPanel from "../../components/SkillPanels/BackendPanel";
 
 function Skills() {
 	const [tab, setTab] = useState(0);
@@ -28,6 +29,7 @@ function Skills() {
 					indicatorColor="primary"
 				>
 					<Tab label="Frontend" />
+					<Tab label="Backend" />
 					<Tab label="DSA" />
 				</Tabs>
 			</AppBar>
@@ -35,6 +37,9 @@ function Skills() {
 				<FrontendPanel />
 			</Panel>
 			<Panel index={1} value={tab}>
+				<BackendPanel />
+			</Panel>
+			<Panel index={2} value={tab}>
 				<CompetitivePanel />
 			</Panel>
 		</div>

@@ -7,7 +7,7 @@ import SkillImage from "./SkillImage";
 function FrontendPanel() {
 	return (
 		<div style={{ flexGrow: 1 }}>
-			<Grid container spacing={2}>
+			<Grid container spacing={2} className="grid-container">
 				<Grid item xs={6} sm={3} className="skill-item">
 					<SkillImage src="html.svg" name="HTML" />
 				</Grid>
@@ -16,6 +16,9 @@ function FrontendPanel() {
 				</Grid>
 				<Grid item xs={6} sm={3} className="skill-item">
 					<SkillImage src="js.svg" name="Javascript" />
+				</Grid>
+				<Grid item xs={6} sm={3} className="skill-item">
+					<SkillImage src="ts.svg" name="Typescript" />
 				</Grid>
 				<Grid item xs={6} sm={3} className="skill-item">
 					<SkillImage src="bootstrap.svg" name="Bootstrap" />
@@ -31,6 +34,9 @@ function FrontendPanel() {
 				</Grid>
 				<Grid item xs={6} sm={3} className="skill-item">
 					<SkillImage src="vue.svg" name="Vue.js" />
+				</Grid>
+				<Grid item xs={6} sm={3} className="skill-item">
+					<SkillImage src="next.svg" name="NextJS" />
 				</Grid>
 				{/* <Grid item xs={6} sm={3} className="skill-item">
 					<SkillImage src="motion.png" name="Framer Motion" />

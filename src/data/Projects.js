@@ -47,6 +47,14 @@ let projects = [
 		tech: "Java, LibGDX library",
 		git: "https://github.com/Sarthakbh321/Spidey-Game",
 	},
+	{
+		id: 6,
+		name: "View all on my GitHub",
+
+		src: "github.svg",
+		link: "https://github.com/Sarthakbh321",
+		git: "https://github.com/Sarthakbh321",
+	},
 ];
 
 export default projects;

@@ -27,6 +27,7 @@ function ProjectTile({
 			drag={interactive}
 			dragConstraints={dragref}
 			className={interactive ? "grabbable" : null}
+			style={{ zIndex: 100 }}
 		>
 			<Card className="project-tile" elevation={3}>
 				<CardHeader title={name} className="project-title" />
@@ -35,12 +36,15 @@ function ProjectTile({
 					title={name}
 					style={{ height: 0, paddingTop: "56%" }}
 				/>
+
 				<CardContent>
 					<p style={{ textAlign: "justify" }}>{desc}</p>
-					<p>
-						<span className="do-font">TECH STACK: </span>
-						<span className="blue-color">{tech} </span>
-					</p>
+					{tech && (
+						<p>
+							<span className="do-font">TECH STACK: </span>
+							<span className="blue-color">{tech} </span>
+						</p>
+					)}
 				</CardContent>
 				<CardActions disableSpacing className="action-bar">
 					<a
