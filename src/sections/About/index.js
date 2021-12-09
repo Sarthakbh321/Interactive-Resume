@@ -11,12 +11,12 @@ function About(props) {
 
 	return (
 		<div className="section-style">
-			<h1 className="section-head">
+			<motion.h1 className="section-head">
 				<span role="img" aria-label="student emoji">
 					👨‍🎓
 				</span>
 				About Me
-			</h1>
+			</motion.h1>
 			<div className="about-content" ref={ref}>
 				<Grid container className="about-grid">
 					<Grid item sm={12} md={6} className="about-text-div">
@@ -60,10 +60,14 @@ function About(props) {
 									href="/resume.pdf"
 									style={{ textDecoration: "none" }}
 								>
-									<button className="cv-btn">
+									<motion.button
+										className="cv-btn"
+										drag={props.interactive}
+										dragConstraints={ref}
+									>
 										<GetApp className="down-icon" />
 										Download CV
-									</button>
+									</motion.button>
 								</a>
 							</div>
 						</Fade>
