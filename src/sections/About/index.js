@@ -5,6 +5,7 @@ import Fade from "react-reveal";
 import { motion } from "framer-motion";
 import "./About.css";
 import { GetApp } from "@material-ui/icons";
+import { Link } from "react-router-dom";
 
 function About(props) {
 	const ref = useRef();
@@ -55,9 +56,8 @@ function About(props) {
 								.
 							</motion.p>
 							<div className="btn-container">
-								<a
-									download="[Resume] Sarthak Bharadwaj"
-									href="/resume.pdf"
+								<Link
+									to="/resume"
 									style={{ textDecoration: "none" }}
 								>
 									<motion.button
@@ -68,7 +68,7 @@ function About(props) {
 										<GetApp className="down-icon" />
 										Download CV
 									</motion.button>
-								</a>
+								</Link>
 							</div>
 						</Fade>
 					</Grid>
