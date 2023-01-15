@@ -72,7 +72,7 @@ function About(props) {
 							</div>
 						</Fade>
 					</Grid>
-					<Grid
+					{/* <Grid
 						item
 						sm={12}
 						md={6}
@@ -89,7 +89,7 @@ function About(props) {
 							alt="my face"
 							className={props.interactive ? "grabbable" : null}
 						/>
-					</Grid>
+					</Grid> */}
 				</Grid>
 			</div>
 		</div>
